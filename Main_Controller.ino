@@ -65,8 +65,7 @@ void setup() {
   }while(b.indexOf("ready") == -1);
   //----------------------------
   
-  //homeMotors();
-  mainMenu();
+  homeMotors();
 }
 
 void tsCoord(int &x, int &y, int orientation)
